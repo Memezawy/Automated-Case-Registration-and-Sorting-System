@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('bg2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.btn {
+    margin-left: 22cm;
+    margin-top: 4cm;
+    width: 200px;
+}
+
+ul.errorlist {display:none;}
+
+textarea {
+    padding: 10px;
+    max-height: 160px;
+    min-height: 160px;
+    width: 640px;
+}
+form{
+    margin-top: 200px;
+}
+
+p{
+    padding: 20px;
+    color:white;
+    border-radius: 10px, 10px, 10px, 10px;
+    height: 50px;
+    width: 700px;
+    margin-left: 32%;
+
+  }

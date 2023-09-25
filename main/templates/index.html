@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<link rel="stylesheet" href="{% static 'main/style.css' %}"
+<dir class="form-group">
+<dir class"container">
+<form method="post">
+<dir class='info'>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="Submit" class="btn btn-primary">Submit</button>
+</dir>
+</form>
+</dir>
+</dir>
+{% endblock %}
